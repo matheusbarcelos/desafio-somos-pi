@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9e20510ec7042387",
+  "name" : "adicionar produto ao carrinho",
+  "time" : {
+    "start" : 1620600794187,
+    "stop" : 1620600811701,
+    "duration" : 17514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

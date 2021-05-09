@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "automation",
+    "children" : [ {
+      "name" : "adicionar produto ao carrinho",
+      "uid" : "9e20510ec7042387",
+      "parentUid" : "44635b7974958d875c2dd833c86db444",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620600794187,
+        "stop" : 1620600811701,
+        "duration" : 17514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "44635b7974958d875c2dd833c86db444"
+  } ]
+}

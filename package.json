@@ -1,0 +1,22 @@
+{
+  "name": "somos-pi-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --config video=false --env allure=true",
+    "allure:generate": "allure generate allure-results",
+    "allure:open": "allure open allure-report",
+    "allure:clear": "del -r allure-results/ allure-report || true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.2.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.5.1"
+  }
+}
