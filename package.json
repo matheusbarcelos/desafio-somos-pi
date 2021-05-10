@@ -7,8 +7,7 @@
     "cy:run": "cypress run --config video=false --env allure=true",
     "allure:generate": "allure generate allure-results",
     "allure:open": "allure open allure-report",
-    "allure:clear": "del -r allure-results/ allure-report || true",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx npm-run-all cy:run allure:open"
   },
   "keywords": [],
   "author": "",
