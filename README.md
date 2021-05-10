@@ -13,3 +13,9 @@ Se desejar utilizar outro gerenciador de pacotes, gentileza utilizar:
 * yarn run cypress open
 
 
+3-Para execução dos testes em segundo plano e geração de relatórios, executar o seguinte comando:
+* npm run test
+
+
+
+
