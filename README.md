@@ -12,6 +12,7 @@ Se desejar utilizar outro gerenciador de pacotes, gentileza utilizar:
 * npx cypress open
 * yarn run cypress open
 
+2 - Projeto desenvolvido utilizando o padrão 'Page Objects', a spec principal de testes se encontra na pasta 'integration', 'automation.spec.js'.
 
 3-Para execução dos testes em segundo plano e geração de relatórios, executar o seguinte comando:
 * npm run test
